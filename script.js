@@ -16,7 +16,7 @@ let mySampleObject = {
   firstName: "John",
   lastName: "Doe",
   age: 50,
-};
+}; 
 
 //END OF REVIEW
 
@@ -33,6 +33,25 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [
+  {
+    animalType: "Dog",
+    name: "Bozo",
+    age: 13,
+    pictureURL: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+  },
+  {
+    animalType: "Cat",
+    name: "Shmuckers",
+    age: 2,
+    pictureURL: "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=830&q=80"
+  },
+  {
+    animalType: "Cuttlefish",
+    name: "Jiggy",
+    age: 99,
+    pictureURL: "https://images.unsplash.com/photo-1503019419990-1d961b6301aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2702&q=80"
+  }
+]
 
 //END OF ASSIGNMENT
